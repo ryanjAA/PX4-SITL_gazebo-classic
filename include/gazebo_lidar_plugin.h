@@ -40,9 +40,9 @@
 namespace gazebo
 {
   static constexpr double kSensorMinDistance = 0.06;    // values smaller than that cause issues
-  static constexpr double kSensorMaxDistance = 35.0;    // values bigger than that cause issues
+  static constexpr double kSensorMaxDistance = 100.0;    // values bigger than that cause issues
   static constexpr double kDefaultMinDistance = 0.2;
-  static constexpr double kDefaultMaxDistance = 15.0;
+  static constexpr double kDefaultMaxDistance = 10.0;
   static constexpr double kDefaultFOV = 0.0523598776;   // standard 3 degrees
 
   /// \brief A Ray Sensor Plugin
